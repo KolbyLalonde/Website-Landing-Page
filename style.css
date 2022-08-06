@@ -5,7 +5,7 @@ body {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: underline;
     color: white;
 }
 
@@ -17,8 +17,19 @@ ul {
 
 .logo {
     color: white;
-    font-size: 32px;
+    font-size: 50px;
+    font-family: Avantgarde, sans-serif;
+}
 
+#school {
+    height: 60px;
+    width: 75px;
+}
+
+.inline {
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
 
 .header {
@@ -30,7 +41,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 50px;
+    padding: 20px 40px;
 }
 
 button {
@@ -38,21 +49,27 @@ button {
     border-radius: 8px;
     background: #3882F6;
     padding: 8px 24px;
+    max-width: 100px;
     color: white;
 }
 
 img {
+    height: 160px;
+    width: 160px;
+}
+
+#profile {
     height: auto;
     width: 160px;
 }
 
 .title{
     font-size: 36px;
-    font-weight: 800;
+    font-weight: 500;
 }
 
-.paragraph {
-    font-size: 12px;
+.location {
+    font-size: 20px;
 }
 
 .content {
@@ -91,6 +108,10 @@ img {
     max-width: 200px;
     text-align: center;
     margin-bottom: 80px;
+}
+
+.text{
+    font-size: 20px;
 }
 
 .middle {
